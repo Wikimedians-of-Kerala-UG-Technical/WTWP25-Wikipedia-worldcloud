@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Word Cloud Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Dynamic Word Cloud Generator</h1>
+
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Enter a topic to generate a word cloud">
+        <button onclick="searchWiki()">Generate</button>
+    </div>
+
+    <div class="content-wrapper" id="contentWrapper">
+        <h3>Search Results</h3>
+        <ul id="results"></ul>
+    </div>
+
+    <div class="wordcloud-container">
+        <canvas id="wordCloudCanvas"></canvas>
+    </div>
+</div>
+
+<!-- WordCloud library -->
+<script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.js"></script>
+
+<!-- App JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
