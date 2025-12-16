@@ -7,7 +7,7 @@ Wikemedia api used to create an interactive website which finds the words in the
 
 Created and coded by during Wikimedia workshop:
 with githubusername
-Pranav Rajesh : Pranav18r
-Abhinav Nm : AbhinavNM
-Abital Joshy : abitaljoshy105-wq
+Pranav Rajesh : Pranav18r, 
+Abhinav Nm : AbhinavNM,
+Abital Joshy : abitaljoshy105-wq,
 Josukkuty Sojan : Josukkuty-Sojan
